@@ -1,6 +1,6 @@
 # Peek, Pop, isEmpty, Push, size()
 
-class Stack_Cls:
+class Stack_Class:
 
 	def __init__(self):
 		self.items = []

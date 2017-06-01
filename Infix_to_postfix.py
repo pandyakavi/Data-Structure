@@ -20,7 +20,7 @@ from Stack_Cls import Stack_Cls as Stack
 inpt = raw_input()
 stak = Stack()
 otpt_lst = []
-operators = "*/-+()"
+operators = "*/-+()" # Other operators such as ^(power symbol) can be added here and similiarly do changes in EvaluateMe() function present in line 65
 precedence = {"*":3, "/":3, "+":2, "-":2, "(":1}
 
 for item in inpt:
